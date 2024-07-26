@@ -1,6 +1,6 @@
 function updateWhatsAppLinks(clientId) {
     const pageTitle = document.title;
-    const message = "Oi, estava vendo a pÃ¡gina: " + pageTitle + " - e gostaria de saber mais (ID: #" + clientId + ")";
+    const message = "Olá! Gostaria de mais informa: " (ID: #" + clientId + ")";
     const encodedMessage = encodeURIComponent(message);
 	console.log("encodedMessage ======>",encodedMessage);
     const links = document.querySelectorAll('a[href*="api.whatsapp.com"], a[href*="wa.me"]');
